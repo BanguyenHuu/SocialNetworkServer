@@ -39,23 +39,22 @@
         </dependency>
 
 
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-starter-security</artifactId>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.security.oauth</groupId>-->
-        <!--<artifactId>spring-security-oauth2</artifactId>-->
-        <!--<version>2.1.1.RELEASE</version>-->
-        <!--</dependency>-->
-
         <dependency>
-        <groupId>org.springframework.security</groupId>
-        <artifactId>spring-security-core</artifactId>
-        <version>4.2.3.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>4.2.3.RELEASE</version>
+        </dependency>
 
 
         <dependency>
@@ -76,11 +75,11 @@
             <version>5.9.0</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.security</groupId>-->
-            <!--<artifactId>spring-security-jwt</artifactId>-->
-            <!--<version>1.0.8.RELEASE</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+            <version>1.0.8.RELEASE</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -145,7 +144,7 @@
                             characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull
                         </url>
                         <user>root</user>
-                        <password>trymybest</password>
+                        <password>az09az09</password>
                     </jdbc>
                     <generator>
                         <generate>
@@ -190,7 +189,7 @@
                         </systemProperty>
                         <systemProperty>
                             <key>jdbc.password</key>
-                            <value>trymybest</value>
+                            <value>az09az09</value>
                         </systemProperty>
                         <systemProperty>
                             <key>jdbc.url</key>
