@@ -12,4 +12,12 @@ public class Student {
     public String getUsername(){
         return username;
     }
+
+fhfgfgh
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+
 }
