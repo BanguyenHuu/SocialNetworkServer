@@ -14,6 +14,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+
+    <properties>
+        <java.source>1.8</java.source>
+        <java.target>1.8</java.target>
+        <passwordsql>az09az09</passwordsql>
+    </properties>
+
     <dependencies>
 
         <dependency>
@@ -144,7 +151,7 @@
                             characterEncoding=utf-8&amp;zeroDateTimeBehavior=convertToNull
                         </url>
                         <user>root</user>
-                        <password>az09az09</password>
+                        <password>${passwordsql}</password>
                     </jdbc>
                     <generator>
                         <generate>
@@ -189,7 +196,7 @@
                         </systemProperty>
                         <systemProperty>
                             <key>jdbc.password</key>
-                            <value>az09az09</value>
+                            <value>${passwordsql}</value>
                         </systemProperty>
                         <systemProperty>
                             <key>jdbc.url</key>
